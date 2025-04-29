@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student API Client</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+    <h1>Student API Client</h1>
+
+    <section>
+        <h2>Register Student</h2>
+        <input type="text" id="registerName" placeholder="Name">
+        <input type="text" id="registerCareer" placeholder="Career">
+        <button onclick="registerStudent()">Register</button>
+        <pre id="registerResult"></pre>
+    </section>
+
+    <section>
+        <h2>Get Student by ID</h2>
+        <input type="number" id="studentId" placeholder="Student ID">
+        <button onclick="getStudentById()">Get Student</button>
+        <pre id="getResult"></pre>
+    </section>
+
+    <section>
+        <h2>Get Students by Career</h2>
+        <input type="text" id="careerFilter" placeholder="Career">
+        <button onclick="getStudentsByCareer()">Get Students</button>
+        <pre id="careerResult"></pre>
+    </section>
+
+    <section>
+        <h2>Delete Student</h2>
+        <input type="number" id="deleteId" placeholder="Student ID">
+        <button onclick="deleteStudent()">Delete Student</button>
+        <pre id="deleteResult"></pre>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
