@@ -1,1 +1,57 @@
-[]
+[
+  {
+    "id": 3,
+    "name": "olivera",
+    "career": "datos"
+  },
+  {
+    "id": 7,
+    "name": "carlos olivera",
+    "career": "datos"
+  },
+  {
+    "id": 8,
+    "name": "olivera",
+    "career": "IA"
+  },
+  {
+    "id": 9,
+    "name": "carlos olivera",
+    "career": "Curso inic. en prog. y CDD"
+  },
+  {
+    "id": 11,
+    "name": "123",
+    "career": "datos"
+  },
+  {
+    "id": 12,
+    "name": "1234",
+    "career": "IA"
+  },
+  {
+    "id": 13,
+    "name": "dtgxtrferfegxgtg",
+    "career": "IA"
+  },
+  {
+    "id": 14,
+    "name": "1234",
+    "career": "IA"
+  },
+  {
+    "id": 15,
+    "name": "231",
+    "career": "Curso inic. en prog. y CDD"
+  },
+  {
+    "id": 16,
+    "name": "olivera",
+    "career": "datoss"
+  },
+  {
+    "id": 17,
+    "name": "olivera",
+    "career": "112"
+  }
+]

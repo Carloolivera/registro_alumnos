@@ -1,0 +1,109 @@
+/* =========== Estilo 7: Corporativo Pattern =========== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap');
+
+body {
+  background-color: #ffffff;
+  background-image: repeating-linear-gradient(45deg, #ffffff 0, #ffffff 10px, #f8f9fa 10px, #f8f9fa 20px);
+  color: #495057;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #0d47a1 !important;
+  border-radius: 0.25rem;
+  margin-bottom: 2rem;
+}
+
+.navbar-brand,
+.navbar .nav-link {
+  color: #ffffff !important;
+}
+.navbar .nav-link.active {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* Cartas */
+.card {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-left: 4px solid #1976d2;
+  border-radius: 0.25rem;
+}
+.card-header {
+  background-color: #f8f9fa;
+  color: #0d47a1;
+  font-weight: 600;
+}
+
+/* Botones */
+.btn-primary {
+  background-color: #1976d2;
+  border-color: #1976d2;
+  border-radius: 0.25rem;
+  font-weight: 500;
+  color: #ffffff;
+  transition: background-color 0.2s ease;
+}
+.btn-primary:hover {
+  background-color: #155a9c;
+  border-color: #155a9c;
+}
+.btn-primary:active {
+  background-color: #0f3e6b;
+  border-color: #0f3e6b;
+}
+
+/* Resultados */
+#resultado-busqueda-alumno,
+#resultado-busqueda-carrera,
+#resultado-busqueda-categoria {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+}
+
+/* Footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Tablas */
+.table {
+  background-color: #ffffff;
+}
+.table th {
+  background-color: #e0f2ff;
+  color: #0d47a1;
+}
+.table td, .table th {
+  vertical-align: middle;
+}
+.table-hover tbody tr:hover {
+  background-color: #e9ecef;
+}
+
+/* Formularios */
+form {
+  background-color: #ffffff;
+  padding: 1rem;
+  border: 1px solid #dee2e6;
+  border-radius: 0.5rem;
+}
+input.form-control,
+select.form-select {
+  border-radius: 0.25rem;
+  border: 1px solid #ced4da;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+  .card, .result-card {
+    padding: 1rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+}
